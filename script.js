@@ -1,9 +1,8 @@
 function firstChar(text) {
   // your code here
 	let res=' ';
-	
 	for(let char of text){
-		if(char!=res){
+		if(char!=' '){
 			res=char;
 			break;
 		}
@@ -13,5 +12,5 @@ function firstChar(text) {
 
 // Do not change the code below
 
-const text = prompt("Enter text:");
-alert(firstChar(text));
+// const text = prompt("Enter text:");
+// alert(firstChar(text));
