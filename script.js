@@ -7,7 +7,7 @@ function firstChar(text) {
 			break;
 		}
 	}
-	return stringify(res);
+	return (res);
 }
 
 // Do not change the code below
